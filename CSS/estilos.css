@@ -1,0 +1,46 @@
+body {
+  background: linear-gradient(to left, white, #a9f5e15f);
+  padding: 3px;
+  margin: 0;
+  border: 0;
+}
+
+.card {
+  text-align: center;
+  box-shadow: 0 4px 8px #d8d8d8;
+}
+
+.d-grid {
+  margin: 2.5rem;
+  width: 60%;
+}
+
+@media only screen and (max-width: 600px) {
+  .d-grid {
+    width: 80%;
+  }
+}
+
+.carousel-inner {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.carousel-item>img {
+  max-height: 560px;
+  object-fit: cover;
+}
+
+.bar {
+  border-radius: 6px;
+  background-color: #4496815f;
+}
+
+.btn {
+  background-color: #8fefd7;
+  color: black;
+}
+
+.btn:hover {
+  background-color: #1e6755;
+}
